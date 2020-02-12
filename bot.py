@@ -5,13 +5,11 @@ import pyautogui
 from PIL import ImageOps
 import pyscreenshot as ImageGrab
 
-
-
 class cordinates():
     replaybutton = (360,214)
     dinasaur = (149,239)
 
-#Presses button to restart game
+#Presses button to restart game 
 #Using pyautogui
 def restartGame():
     pyautogui.click(cordinates.replaybutton)
